@@ -2,6 +2,8 @@
 
 If you are using [vim-plug](https://github.com/junegunn/vim-plug), add this in your config files (such as `~/.config/nvim/init.vim`), in the `call plug#begin() ... call plug#end()` section.
 
+Use `:PlugInstall` and `:UpdateRemotePlugins` to install, then close and open neovim.
+
 ``` vim-script
 " Using the github repository
 Plug 'simsapa/simsapa-neovim'
@@ -9,8 +11,6 @@ Plug 'simsapa/simsapa-neovim'
 " Or, if you cloned the repository:
 Plug '~/path/to/simsapa-neovim'
 ```
-
-Use `:UpdateRemotePlugins` to install.
 
 ## Try it
 
